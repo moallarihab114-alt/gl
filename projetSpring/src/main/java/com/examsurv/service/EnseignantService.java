@@ -1,5 +1,10 @@
 package com.examsurv.service;
 
-public class EnseignantService {
+import org.springframework.beans.factory.annotation.Autowired;
 
+import com.examsurv.repository.GradeRepository;
+
+public class EnseignantService {
+	@Autowired
+	private EnseignantService enseignantService;
 }
